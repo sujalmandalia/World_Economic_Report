@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GEP Report Chat</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar" id="sidebar">
+        <button class="new-chat" id="newChat" type="button">+ New chat</button>
+        <h2>Conversations</h2>
+        <ul class="conversations" id="conversations"></ul>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <button class="menu" id="menu" type="button" aria-label="Toggle conversations">☰</button>
+          <div>
+            <h1>Global Economic Prospects · June 2026</h1>
+            <p class="subtitle">Answers come only from the World Bank report, with page citations.</p>
+          </div>
+        </header>
+
+        <section class="messages" id="messages" aria-live="polite">
+          <div class="empty" id="empty">
+            <p>Try asking:</p>
+            <div class="suggestions">
+              <button type="button">What are the main messages of the report?</button>
+              <button type="button">How fast will the world economy grow in 2026?</button>
+              <button type="button">What is India's growth forecast for 2027?</button>
+              <button type="button">Summarize chapter 3</button>
+              <button type="button">How did the Strait of Hormuz disruption affect commodity prices?</button>
+            </div>
+          </div>
+        </section>
+
+        <form class="composer" id="composer">
+          <textarea id="input" rows="1" placeholder="Ask about the report…" maxlength="1000" required></textarea>
+          <button id="send" type="submit">Send</button>
+        </form>
+      </main>
+
+      <aside class="source-panel" id="sourcePanel" hidden>
+        <div class="source-panel-head">
+          <h2 id="sourceTitle">Source</h2>
+          <button id="closeSource" type="button" aria-label="Close source">×</button>
+        </div>
+        <div id="sourceBody"></div>
+      </aside>
+    </div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

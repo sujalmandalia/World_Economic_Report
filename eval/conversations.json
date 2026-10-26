@@ -1,0 +1,22 @@
+[
+  { "history": [["How fast will South Asia grow in 2026?", "Growth in South Asia is expected to soften to 6.3 percent in 2026."]],
+    "message": "What about India?", "mustInclude": ["India", "2026"] },
+  { "history": [["What is India's growth forecast for 2026?", "India's growth is forecast at 6.6 percent in fiscal year 2026/27."]],
+    "message": "And in 2027?", "mustInclude": ["India", "2027"] },
+  { "history": [["Summarize chapter 3", "Chapter 3 examines how rising government debt in EMDEs raises sovereign spreads and bond yields..."]],
+    "message": "What policies does it recommend?", "mustInclude": ["chapter 3"] },
+  { "history": [["What happened to Senegal after its hidden debt came to light?", "Senegal's sovereign spreads rose sharply after audits revealed hidden debt, and an IMF program was suspended."]],
+    "message": "Why did spreads rise so much?", "mustInclude": ["Senegal", "spread"] },
+  { "history": [["How many commodity exporters had a fiscal rule in 2024?", "50 commodity exporters had at least one fiscal rule in 2024, up from 16 in 2000."]],
+    "message": "And sovereign wealth funds?", "mustInclude": ["sovereign wealth fund", "commodity"] },
+  { "history": [["What does Table 2.3 show?", "Table 2.3 is the Europe and Central Asia forecast summary, with real GDP growth from 2023 to 2028."]],
+    "message": "What is the forecast for Türkiye there?", "mustInclude": ["Türkiye"] },
+  { "history": [["What are the main downside risks to the global outlook?", "Risks include a prolonged closure of the Strait of Hormuz, higher energy prices, trade tensions and tighter financing conditions."]],
+    "message": "Explain the first one in more detail", "mustInclude": ["Hormuz"] },
+  { "history": [["How fast is the world economy expected to grow in 2026?", "Global growth is projected to slow to 2.5 percent in 2026."]],
+    "message": "What is EMBIG?", "mustInclude": ["EMBIG"], "standalone": true },
+  { "history": [["How fast is the world economy expected to grow in 2026?", "Global growth is projected to slow to 2.5 percent in 2026."]],
+    "message": "thanks, that's helpful", "kind": "chitchat" },
+  { "history": [["What is the outlook for Sub-Saharan Africa?", "Growth in SSA is projected at 4.0 percent in 2026, rising to about 4.4 percent in 2027-28."]],
+    "message": "How does that compare with Latin America?", "mustInclude": ["Latin America", "Sub-Saharan Africa"] }
+]
